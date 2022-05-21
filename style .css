@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #43dde6;
+}
+.box{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    width: 50%;
+}
+.info-title{
+    color: #10316b;
+    font-size: 40px;
+}
+.info-description{
+    color: #10316b;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.info-place{
+    color: #10316b;
+    font-size: 20px;
+}
+.currentPlace{
+    font-size: 25px;
+    color: #2cb978;
+}
+.map svg{
+    fill: #83e85a;
+    stroke: white;
+}
+.map svg path{
+    transition: 0.5s;
+}
+.map svg path:hover{
+    fill: #2cb978;
+}
